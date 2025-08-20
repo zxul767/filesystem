@@ -1,3 +1,35 @@
-from .core import find_files
+from .core import (
+    WILDCARD_EXTENSION,
+    compute_md5_hash,
+    compute_weak_hash,
+    count_dir_files,
+    ensure_dir,
+    find_child_dir,
+    find_empty_directories,
+    find_files,
+    get_children_dirs,
+    is_empty_dir,
+    looks_like_md5_hash,
+    matches_any_extension,
+    safely_to_relative,
+    suppressed_output,
+    try_rmdir,
+)
 
-__all__ = ["find_files"]
+__all__ = [
+    "WILDCARD_EXTENSION",
+    "compute_md5_hash",
+    "compute_weak_hash",
+    "count_dir_files",
+    "ensure_dir",
+    "find_child_dir",
+    "find_empty_directories",
+    "find_files",
+    "get_children_dirs",
+    "is_empty_dir",
+    "looks_like_md5_hash",
+    "matches_any_extension",
+    "safely_to_relative",
+    "suppressed_output",
+    "try_rmdir",
+]

@@ -10,7 +10,10 @@ requires-python = ">=3.11"
 dependencies = [
 ]
 
-[tool.poetry]
+[tool.ruff]
+line-length = 88
+lint.select = ["E", "F", "I"]
+
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"

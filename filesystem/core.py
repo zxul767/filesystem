@@ -1,11 +1,11 @@
-from pathlib import Path
-from typing import Optional, Iterator, Generator
 import contextlib
 import hashlib
 import io
 import mmap
-import re
 import os
+import re
+from pathlib import Path
+from typing import Generator, Iterator, Optional
 
 import structlog
 
