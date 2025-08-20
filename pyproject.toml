@@ -1,0 +1,23 @@
+[project]
+name = "filesystem"
+version = "0.1.0"
+description = "A library of common filesystem utilities"
+authors = [
+    {name = "zxul767",email = "willebaldo.gomez@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+mypy = "^1.17.1"
+ruff = "^0.12.9"
+structlog = "^25.4.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
